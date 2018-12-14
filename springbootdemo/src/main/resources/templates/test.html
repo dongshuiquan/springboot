@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hello Thymeleaf 11!</title>
+</head>
+<body>
+    <p th:text="#{welcome}">Welcome to our grocery store!</p>
+
+    <p th:text="'Hello, ' + ${name} + '!'" ></p>
+    <p th:utext="'Hello, ' + ${name} + '!'" ></p>
+    <p th:text="#{hello(${username})}">Welcome to our grocery store!</p>
+    <p th:utext="#{hello(${username})}">Welcome to our grocery store!</p>
+    <p th:utext="#{${hello}(${username})}">Welcome to our grocery store!</p>
+
+    <p>Today is: <span th:text="${today}">13 february 2011</span>.</p>
+    <p>
+        Today is: <span th:text="${#calendars.format(today2, 'dd MMMM yyyy')}">13 May 2011</span>
+    </p>
+
+    <p>map: <span th:text="${map['a']}">map</span>.</p>
+    <p>map contains a: <span th:text="${#maps.containsKey(map, 'a')}">map</span>.</p>
+    <p>map contains b: <span th:text="${#maps.containsKey(map, 'b')}">map</span>.</p>
+
+    Established locale country: <span th:text="${#locale.country}">US</span>.
+
+    <div th:object="${user}">
+        <p>username: <span th:text="*{username}">Sebastian</span>.</p>
+        <p>password: <span th:text="*{password}">Pepper</span>.</p>
+        <p>email: <span th:text="*{email}">Saturn</span>.</p>
+    </div>
+    <a href="hello.html" th:href="@{hello.html}">view</a>
+
+    <p>Please select an option</p>
+    <ol>
+        <li><a href="product/list.html" th:href="@{/product/list}">Product List</a></li>
+        <li><a href="order/list.html" th:href="@{/order/list}">Order List</a></li>
+        <li><a href="subscribe.html" th:href="@{/subscribe}">Subscribe to our Newsletter</a></li>
+        <li><a href="userprofile.html" th:href="@{/userprofile}">See User Profile</a></li>
+    </ol>
+
+
+</body>
+</html>

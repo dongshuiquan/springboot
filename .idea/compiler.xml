@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="actuator" />
+        <module name="fileupload" />
+        <module name="jpa-thymeleaf-crud" />
+        <module name="mongo" />
+        <module name="mybatis" />
+        <module name="shiro" />
+        <module name="springboot" />
+        <module name="springbootdemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="actuator" target="1.8" />
+      <module name="fileupload" target="1.8" />
+      <module name="jpa-thymeleaf-crud" target="1.8" />
+      <module name="mongo" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="shiro" target="1.8" />
+      <module name="springboot" target="1.5" />
+      <module name="springbootdemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
