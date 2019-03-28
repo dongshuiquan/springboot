@@ -23,7 +23,7 @@
       <module name="mongo" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="shiro" target="1.8" />
-      <module name="springboot" target="1.5" />
+      <module name="springboot" target="1.8" />
       <module name="springbootdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -19,31 +19,31 @@ import java.util.List;
 public class UserMapperTest {
 
     @Autowired
-    private UserMapper UserMapper;
+    private UserMapper userMapper;
 
     @Test
     public void testInsert() throws Exception {
-        UserMapper.insert(new UserEntity("aa", "a123456", UserSexEnum.MAN));
-        UserMapper.insert(new UserEntity("bb", "b123456", UserSexEnum.WOMAN));
-        UserMapper.insert(new UserEntity("cc", "b123456", UserSexEnum.WOMAN));
+        userMapper.insert(new UserEntity("aa", "a123456", UserSexEnum.MAN));
+        userMapper.insert(new UserEntity("bb", "b123456", UserSexEnum.WOMAN));
+        userMapper.insert(new UserEntity("cc", "b123456", UserSexEnum.WOMAN));
 
-        Assert.assertEquals(3, UserMapper.getAll().size());
+        Assert.assertEquals(3, userMapper.getAll().size());
     }
 
     @Test
     public void testQuery() throws Exception {
-        List<UserEntity> users = UserMapper.getAll();
+        List<UserEntity> users = userMapper.getAll();
         System.out.println(users.toString());
     }
 
 
     @Test
     public void testUpdate() throws Exception {
-        UserEntity user = UserMapper.getOne(3l);
+        UserEntity user = userMapper.getOne(4L);
         System.out.println(user.toString());
         user.setNickName("neo");
-        UserMapper.update(user);
-        Assert.assertTrue(("neo".equals(UserMapper.getOne(3l).getNickName())));
+        userMapper.update(user);
+        Assert.assertTrue(("neo".equals(userMapper.getOne(4L).getNickName())));
     }
 
 }
