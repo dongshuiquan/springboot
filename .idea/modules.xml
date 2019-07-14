@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/_01helloworld/_01helloworld.iml" filepath="$PROJECT_DIR$/_01helloworld/_01helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02jsp/_02jsp.iml" filepath="$PROJECT_DIR$/_02jsp/_02jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03jpa/_03jpa.iml" filepath="$PROJECT_DIR$/_03jpa/_03jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04druidwatch/_04druidwatch.iml" filepath="$PROJECT_DIR$/_04druidwatch/_04druidwatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05fastjson/_05fastjson.iml" filepath="$PROJECT_DIR$/_05fastjson/_05fastjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06interceptor/_06interceptor.iml" filepath="$PROJECT_DIR$/_06interceptor/_06interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08loggerInterceptor/_08loggerInterceptor.iml" filepath="$PROJECT_DIR$/_08loggerInterceptor/_08loggerInterceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_09staticfile/_09staticfile.iml" filepath="$PROJECT_DIR$/_09staticfile/_09staticfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_15validator/_15validator.iml" filepath="$PROJECT_DIR$/_15validator/_15validator.iml" />
       <module fileurl="file://$PROJECT_DIR$/actuator/actuator.iml" filepath="$PROJECT_DIR$/actuator/actuator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/actuator/actuator.iml" filepath="$PROJECT_DIR$/actuator/actuator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fileupload/fileupload.iml" filepath="$PROJECT_DIR$/fileupload/fileupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsqspringbootstarter/dsqspringbootstarter.iml" filepath="$PROJECT_DIR$/dsqspringbootstarter/dsqspringbootstarter.iml" />
       <module fileurl="file://$PROJECT_DIR$/fileupload/fileupload.iml" filepath="$PROJECT_DIR$/fileupload/fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-thymeleaf-crud/jpa-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/jpa-thymeleaf-crud/jpa-thymeleaf-crud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jpa-thymeleaf-crud/jpa-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/jpa-thymeleaf-crud/jpa-thymeleaf-crud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mongo/mongo.iml" filepath="$PROJECT_DIR$/mongo/mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongo/mongo.iml" filepath="$PROJECT_DIR$/mongo/mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starterautoconfigurer/starterautoconfigurer.iml" filepath="$PROJECT_DIR$/starterautoconfigurer/starterautoconfigurer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startertest/startertest.iml" filepath="$PROJECT_DIR$/startertest/startertest.iml" />
     </modules>
   </component>
 </project>

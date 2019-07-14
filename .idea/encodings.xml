@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/_01helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_02jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_03jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_04druidwatch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_05fastjson" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_06interceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_08loggerInterceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_09staticfile" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_15validator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/actuator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fileupload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fileupload/src/main/resources/templates/from_file.html" charset="UTF-8" />
@@ -9,5 +18,7 @@
     <file url="file://$PROJECT_DIR$/mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shiro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starterautoconfigurer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/startertest" charset="UTF-8" />
   </component>
 </project>

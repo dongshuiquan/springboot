@@ -6,25 +6,48 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="_01helloworld" />
+        <module name="_02jsp" />
+        <module name="_03jpa" />
+        <module name="_04druidwatch" />
+        <module name="_05fastjson" />
+        <module name="_06interceptor" />
+        <module name="_08loggerInterceptor" />
+        <module name="_09staticfile" />
+        <module name="_15validator" />
         <module name="actuator" />
+        <module name="dsqspringbootstarter" />
         <module name="fileupload" />
         <module name="jpa-thymeleaf-crud" />
         <module name="mongo" />
         <module name="mybatis" />
         <module name="shiro" />
-        <module name="springboot" />
         <module name="springbootdemo" />
+        <module name="starterautoconfigurer" />
+        <module name="startertest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="_01helloworld" target="1.8" />
+      <module name="_02jsp" target="1.8" />
+      <module name="_03jpa" target="1.8" />
+      <module name="_04druidwatch" target="1.8" />
+      <module name="_05fastjson" target="1.8" />
+      <module name="_06interceptor" target="1.8" />
+      <module name="_08loggerInterceptor" target="1.8" />
+      <module name="_09staticfile" target="1.8" />
+      <module name="_15validator" target="1.8" />
       <module name="actuator" target="1.8" />
+      <module name="dsqspringbootstarter" target="1.5" />
       <module name="fileupload" target="1.8" />
       <module name="jpa-thymeleaf-crud" target="1.8" />
       <module name="mongo" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="shiro" target="1.8" />
-      <module name="springboot" target="1.8" />
+      <module name="springboot" target="1.5" />
       <module name="springbootdemo" target="1.8" />
+      <module name="starterautoconfigurer" target="1.8" />
+      <module name="startertest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

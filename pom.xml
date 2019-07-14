@@ -6,7 +6,22 @@
 
     <groupId>com.dsq</groupId>
     <artifactId>springboot</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>starterautoconfigurer</module>
+        <module>dsqspringbootstarter</module>
+        <module>startertest</module>
+        <module>_01helloworld</module>
+        <module>_02jsp</module>
+        <module>_03jpa</module>
+        <module>_04druidwatch</module>
+        <module>_05fastjson</module>
+        <module>_06interceptor</module>
+        <module>_08loggerInterceptor</module>
+        <module>_09staticfile</module>
+        <module>_15validator</module>
+    </modules>
 
 
 </project>
