@@ -21,6 +21,7 @@
         <module>_08loggerInterceptor</module>
         <module>_09staticfile</module>
         <module>_15validator</module>
+        <module>_16redis</module>
     </modules>
 
 
