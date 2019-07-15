@@ -16,6 +16,7 @@
         <module name="_09staticfile" />
         <module name="_15validator" />
         <module name="_16redis" />
+        <module name="_17security" />
         <module name="actuator" />
         <module name="dsqspringbootstarter" />
         <module name="fileupload" />
@@ -39,6 +40,7 @@
       <module name="_09staticfile" target="1.8" />
       <module name="_15validator" target="1.8" />
       <module name="_16redis" target="1.8" />
+      <module name="_17security" target="1.8" />
       <module name="actuator" target="1.8" />
       <module name="dsqspringbootstarter" target="1.5" />
       <module name="fileupload" target="1.8" />

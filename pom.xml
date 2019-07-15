@@ -22,6 +22,7 @@
         <module>_09staticfile</module>
         <module>_15validator</module>
         <module>_16redis</module>
+        <module>_17security</module>
     </modules>
 
 
