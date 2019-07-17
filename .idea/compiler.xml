@@ -17,6 +17,8 @@
         <module name="_15validator" />
         <module name="_16redis" />
         <module name="_17security" />
+        <module name="_20websocket" />
+        <module name="_21exceptionhandle" />
         <module name="actuator" />
         <module name="dsqspringbootstarter" />
         <module name="fileupload" />
@@ -41,6 +43,8 @@
       <module name="_15validator" target="1.8" />
       <module name="_16redis" target="1.8" />
       <module name="_17security" target="1.8" />
+      <module name="_20websocket" target="1.8" />
+      <module name="_21exceptionhandle" target="1.8" />
       <module name="actuator" target="1.8" />
       <module name="dsqspringbootstarter" target="1.5" />
       <module name="fileupload" target="1.8" />

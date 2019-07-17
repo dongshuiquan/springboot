@@ -23,6 +23,8 @@
         <module>_15validator</module>
         <module>_16redis</module>
         <module>_17security</module>
+        <module>_20websocket</module>
+        <module>_21exceptionhandle</module>
     </modules>
 
 

@@ -24,7 +24,7 @@ public class IndexController {
         return "login";
     }
 
-    @RequestMapping(value = "loginAction", method = RequestMethod.POST)
+    @RequestMapping(value = "login", method = RequestMethod.POST)
     public String loginAction() {
         System.out.println("loginAction");
         return "index";
