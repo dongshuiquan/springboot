@@ -25,6 +25,8 @@
         <module>_17security</module>
         <module>_20websocket</module>
         <module>_21exceptionhandle</module>
+        <module>_25cors</module>
+        <module>_26schedule</module>
     </modules>
 
 
