@@ -17,6 +17,8 @@
       <module fileurl="file://$PROJECT_DIR$/_21exceptionhandle/_21exceptionhandle.iml" filepath="$PROJECT_DIR$/_21exceptionhandle/_21exceptionhandle.iml" />
       <module fileurl="file://$PROJECT_DIR$/_25cors/_25cors.iml" filepath="$PROJECT_DIR$/_25cors/_25cors.iml" />
       <module fileurl="file://$PROJECT_DIR$/_26schedule/_26schedule.iml" filepath="$PROJECT_DIR$/_26schedule/_26schedule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_27applicationevent/_27applicationevent.iml" filepath="$PROJECT_DIR$/_27applicationevent/_27applicationevent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_33banner/_33banner.iml" filepath="$PROJECT_DIR$/_33banner/_33banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/actuator/actuator.iml" filepath="$PROJECT_DIR$/actuator/actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/dsqspringbootstarter/dsqspringbootstarter.iml" filepath="$PROJECT_DIR$/dsqspringbootstarter/dsqspringbootstarter.iml" />
       <module fileurl="file://$PROJECT_DIR$/fileupload/fileupload.iml" filepath="$PROJECT_DIR$/fileupload/fileupload.iml" />

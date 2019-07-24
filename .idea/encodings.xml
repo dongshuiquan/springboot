@@ -16,6 +16,8 @@
     <file url="file://$PROJECT_DIR$/_21exceptionhandle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_25cors" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_26schedule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_27applicationevent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_33banner" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/actuator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fileupload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fileupload/src/main/resources/templates/from_file.html" charset="UTF-8" />

@@ -20,7 +20,7 @@ import java.io.Serializable;
 @ToString
 public class User implements Serializable {
 
-    public User(){}
+
 
     public User(String username, String email, String nickName, String password, String regTime) {
         this.username = username;

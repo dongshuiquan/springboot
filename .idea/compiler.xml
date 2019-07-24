@@ -21,6 +21,8 @@
         <module name="_21exceptionhandle" />
         <module name="_25cors" />
         <module name="_26schedule" />
+        <module name="_27applicationevent" />
+        <module name="_33banner" />
         <module name="actuator" />
         <module name="dsqspringbootstarter" />
         <module name="fileupload" />
@@ -49,6 +51,8 @@
       <module name="_21exceptionhandle" target="1.8" />
       <module name="_25cors" target="1.8" />
       <module name="_26schedule" target="1.8" />
+      <module name="_27applicationevent" target="1.8" />
+      <module name="_33banner" target="1.8" />
       <module name="actuator" target="1.8" />
       <module name="dsqspringbootstarter" target="1.5" />
       <module name="fileupload" target="1.8" />

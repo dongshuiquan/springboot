@@ -27,6 +27,8 @@
         <module>_21exceptionhandle</module>
         <module>_25cors</module>
         <module>_26schedule</module>
+        <module>_27applicationevent</module>
+        <module>_33banner</module>
     </modules>
 
 
