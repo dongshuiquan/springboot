@@ -28,7 +28,7 @@ public class HelloWorldController {
     }
 
     @ResponseBody
-    @RequestMapping("/helloo")
+    @RequestMapping("/get")
     public String index() {
         return "Hello World!";
     }

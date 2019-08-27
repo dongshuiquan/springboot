@@ -29,6 +29,7 @@
         <module>_26schedule</module>
         <module>_27applicationevent</module>
         <module>_33banner</module>
+        <module>logger</module>
     </modules>
 
 

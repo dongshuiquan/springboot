@@ -14,13 +14,8 @@ import java.io.Serializable;
  */
 
 @Entity
-@NoArgsConstructor
-@Getter
-@Setter
-@ToString
+//@Data
 public class User implements Serializable {
-
-
 
     public User(String username, String email, String nickName, String password, String regTime) {
         this.username = username;
@@ -30,6 +25,7 @@ public class User implements Serializable {
         this.regTime = regTime;
     }
 
+    public User(){}
 
     private static final long serialVersionUID = 1L;
     @Id

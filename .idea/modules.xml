@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/dsqspringbootstarter/dsqspringbootstarter.iml" filepath="$PROJECT_DIR$/dsqspringbootstarter/dsqspringbootstarter.iml" />
       <module fileurl="file://$PROJECT_DIR$/fileupload/fileupload.iml" filepath="$PROJECT_DIR$/fileupload/fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-thymeleaf-crud/jpa-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/jpa-thymeleaf-crud/jpa-thymeleaf-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logger/logger.iml" filepath="$PROJECT_DIR$/logger/logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongo/mongo.iml" filepath="$PROJECT_DIR$/mongo/mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />

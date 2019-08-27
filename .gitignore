@@ -1,7 +1,11 @@
-/target/
+*/target/
+/lib/
 !.mvn/wrapper/maven-wrapper.jar
 
 .class
+.war
+.jar
+
 
 
 ### STS ###

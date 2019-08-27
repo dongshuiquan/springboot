@@ -1,4 +1,5 @@
 import com.dsq.App;
+import com.other.dsq.starter.HelloService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,4 +24,12 @@ public class StarterTest {
     public void loadTest() {
         Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
     }
+
+    @Test
+    public void hello() {
+        HelloService helloService = context.getBean(HelloService.class);
+        String s = helloService.sayHellAtguigu("aa");
+        System.out.println(s);
+    }
+
 }

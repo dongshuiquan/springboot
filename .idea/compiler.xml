@@ -6,33 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_01helloworld" />
-        <module name="_02jsp" />
-        <module name="_03jpa" />
-        <module name="_04druidwatch" />
-        <module name="_05fastjson" />
-        <module name="_06interceptor" />
-        <module name="_08loggerInterceptor" />
-        <module name="_09staticfile" />
-        <module name="_15validator" />
-        <module name="_16redis" />
-        <module name="_17security" />
-        <module name="_20websocket" />
-        <module name="_21exceptionhandle" />
-        <module name="_25cors" />
-        <module name="_26schedule" />
-        <module name="_27applicationevent" />
-        <module name="_33banner" />
-        <module name="actuator" />
-        <module name="dsqspringbootstarter" />
         <module name="fileupload" />
+        <module name="_05fastjson" />
         <module name="jpa-thymeleaf-crud" />
-        <module name="mongo" />
-        <module name="mybatis" />
-        <module name="shiro" />
+        <module name="_09staticfile" />
+        <module name="_02jsp" />
         <module name="springbootdemo" />
-        <module name="starterautoconfigurer" />
+        <module name="_33banner" />
         <module name="startertest" />
+        <module name="shiro" />
+        <module name="logger" />
+        <module name="actuator" />
+        <module name="_21exceptionhandle" />
+        <module name="_08loggerInterceptor" />
+        <module name="starterautoconfigurer" />
+        <module name="_01helloworld" />
+        <module name="_25cors" />
+        <module name="mybatis" />
+        <module name="_27applicationevent" />
+        <module name="_04druidwatch" />
+        <module name="mongo" />
+        <module name="_17security" />
+        <module name="_03jpa" />
+        <module name="_15validator" />
+        <module name="_20websocket" />
+        <module name="_06interceptor" />
+        <module name="_16redis" />
+        <module name="_26schedule" />
+        <module name="dsqspringbootstarter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -57,6 +58,7 @@
       <module name="dsqspringbootstarter" target="1.5" />
       <module name="fileupload" target="1.8" />
       <module name="jpa-thymeleaf-crud" target="1.8" />
+      <module name="logger" target="1.8" />
       <module name="mongo" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="shiro" target="1.8" />
@@ -65,5 +67,36 @@
       <module name="starterautoconfigurer" target="1.8" />
       <module name="startertest" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="_01helloworld" options="-parameters" />
+      <module name="_02jsp" options="-parameters" />
+      <module name="_03jpa" options="-parameters" />
+      <module name="_04druidwatch" options="-parameters" />
+      <module name="_05fastjson" options="-parameters" />
+      <module name="_06interceptor" options="-parameters" />
+      <module name="_08loggerInterceptor" options="-parameters" />
+      <module name="_09staticfile" options="-parameters" />
+      <module name="_15validator" options="-parameters" />
+      <module name="_16redis" options="-parameters" />
+      <module name="_17security" options="-parameters" />
+      <module name="_20websocket" options="-parameters" />
+      <module name="_21exceptionhandle" options="-parameters" />
+      <module name="_25cors" options="-parameters" />
+      <module name="_26schedule" options="-parameters" />
+      <module name="_27applicationevent" options="-parameters" />
+      <module name="_33banner" options="-parameters" />
+      <module name="actuator" options="-parameters" />
+      <module name="fileupload" options="-parameters" />
+      <module name="jpa-thymeleaf-crud" options="-parameters" />
+      <module name="logger" options="-parameters" />
+      <module name="mongo" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
+      <module name="shiro" options="-parameters" />
+      <module name="springbootdemo" options="-parameters" />
+      <module name="starterautoconfigurer" options="-parameters" />
+      <module name="startertest" options="-parameters" />
+    </option>
   </component>
 </project>

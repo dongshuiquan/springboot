@@ -19,7 +19,7 @@ import java.util.Map;
 @Controller
 public class UserController {
 
-    @PostMapping("user/login")
+   // @PostMapping("user/login")
     @ResponseBody
     public ApiResult login(@RequestBody User user) {
 
@@ -37,4 +37,21 @@ public class UserController {
 
 //        return result;
     }
+
+    @PostMapping("user/login")
+    @ResponseBody
+    public Map<String, Object> login2(@RequestBody User user) {
+
+        System.out.println(user.getUsername());
+        System.out.println(user.getPassword());
+
+       Map<String, Object> result = new HashMap<>();
+
+        result.put("msg", "login success");
+        result.put("token", "login token");
+        result.put("message", "message");
+        result.put("code", 20000);
+        return result;
+    }
+
 }
