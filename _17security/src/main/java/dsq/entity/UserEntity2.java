@@ -1,7 +1,6 @@
 package dsq.entity;
 
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -14,49 +13,27 @@ import java.util.List;
 /**
  * Created by aa on 2019/7/13.
  */
-@Entity
-@Table(name = "users")
-public class UserEntity implements Serializable, UserDetails {
 
-    @Id
-    @GeneratedValue
-    @Column(name = "u_id")
+public class UserEntity2 implements Serializable, UserDetails {
+
+
     private Long id;
 
-    @Column(name = "u_namename")
     private String username;
 
-    @Column(name = "u_password")
     private String password;
 
-
-    @ManyToMany
-    @JoinTable(
-            name = "user_roles",
-            joinColumns = {
-                    @JoinColumn(name = "ur_user_id")
-            },
-            inverseJoinColumns = {
-                    @JoinColumn(name = "ur_role_id")
-            }
-    )
-    private List<RoleEntity> roles;
-
+    Collection<? extends GrantedAuthority> authorities;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        List<GrantedAuthority> auths = new ArrayList<>();
-        List<RoleEntity> roles = getRoles();
-        for(RoleEntity role : roles)
-        {
-            auths.add(new SimpleGrantedAuthority(role.getFlag()));
-        }
-        return auths;
+
+        return authorities;
     }
 
     @Override
     public String getPassword() {
-        return null;
+        return password;
     }
 
     @Override
@@ -98,15 +75,18 @@ public class UserEntity implements Serializable, UserDetails {
         this.password = password;
     }
 
-    public List<RoleEntity> getRoles() {
-        return roles;
-    }
-
-    public void setRoles(List<RoleEntity> roles) {
-        this.roles = roles;
-    }
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public void setAuthorities(Collection<? extends GrantedAuthority> authorities) {
+        this.authorities = authorities;
+    }
+
+    public UserEntity2(String username, String password, Collection<? extends GrantedAuthority> authorities) {
+        this.username = username;
+        this.password = password;
+        this.authorities = authorities;
     }
 }
