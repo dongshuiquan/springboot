@@ -32,5 +32,9 @@ public class User1Service {
         user1Mapper.insert(user);
     }
 
+    @Transactional(propagation = Propagation.NESTED)
+    public void addNested(User1 user){
+        user1Mapper.insert(user);
+    }
 
 }

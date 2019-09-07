@@ -35,4 +35,26 @@ public class User2Service {
         throw new RuntimeException();
     }
 
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    public void addRequiresNew(User2 user){
+        user2Mapper.insert(user);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    public void addRequiresNewException(User2 user){
+        user2Mapper.insert(user);
+        throw new RuntimeException();
+    }
+
+    @Transactional(propagation = Propagation.NESTED)
+    public void addNested(User2 user){
+        user2Mapper.insert(user);
+    }
+
+    @Transactional(propagation = Propagation.NESTED)
+    public void addNestedException(User2 user){
+        user2Mapper.insert(user);
+        throw new RuntimeException();
+    }
+
 }
