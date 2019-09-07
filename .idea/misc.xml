@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/mongo/pom.xml" />
         <option value="$PROJECT_DIR$/fileupload/pom.xml" />
         <option value="$PROJECT_DIR$/actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/transaction/pom.xml" />
       </list>
     </option>
   </component>

@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/starterautoconfigurer/starterautoconfigurer.iml" filepath="$PROJECT_DIR$/starterautoconfigurer/starterautoconfigurer.iml" />
       <module fileurl="file://$PROJECT_DIR$/startertest/startertest.iml" filepath="$PROJECT_DIR$/startertest/startertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction/transaction.iml" filepath="$PROJECT_DIR$/transaction/transaction.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,15 @@
+package com.dsq.transation;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("com.dsq.transation.mapper")
+public class TransationApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(TransationApplication.class, args);
+    }
+
+}
